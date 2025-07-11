@@ -101,13 +101,46 @@ header{
 .banner3 h2{
     text-align: center;
     font-size: 2rem;
-    box-shadow: 0px 6px 20px opx;
     
+    
+}
+.dis{
+    box-shadow: 0px 6px 20px 0px;
+    padding: 24px;
+    border-color:none;
 }
 .star {
     display: flex;
     justify-content: space-around;
     padding: 20px
+    
 
 }
+.data-col{
+    display: flex;
+    justify-content: space-around;
+    padding: 92.3px 150px 0px;
+
+}
+div h1{
+    font-size: larger;
+
+}
+div ul li{
+    text-decoration: none;
+    list-style:none ;
+}
+
+.let{
+  
+  font-size: 4rem;
+}
+.frm{
+    font-size: large;
+}
+input{
+    padding: 20px 5px;
+    border-color: none;
+}
+/* footer */
 
