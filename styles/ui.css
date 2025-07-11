@@ -1,5 +1,18 @@
 
+/* for front */
 
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /* Nav styles  */   
 nav{
     display: flex;
@@ -16,23 +29,85 @@ nav ul li{
 header{
 
     background-image: url(../images/Hero-bg.png)
+    
 }
-.btn{
+.btn-color{
     background-color:#4E47FF;
     border-radius: 6px;
     color: white;
     text-decoration: none;
-    font-weight:500;
+    font-size: 20px;
+    
    
 }
-div{
+.cool{
     
     text-align: center;
-    margin:309px  267.5px 152px;
+    padding: 309px  267.5px 200px;
 }
-body{
-    background: ;
+/* main >banner1*/
+ .banner1{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px;
+    
+ }
+ .banner-titel{
+    font-size: 42px;
+    font-size: bold;
+
+ }
+ .banner-para{
+    font-size: 24px;
+    margin: left;
+    color: #252432;
+
+ }
+ .banner-image1{
+    width:403 ;
+    height:328 ;
+    border-radius: 50px;
+ }
+ .banner2{
+    margin: 40px auto;
+    padding: 40px 20px;
+    border-radius: 12px;
+    background-color: #adabf392;
+    text-align: center;
+    max-width: 1140px;
+ }
+ .banner h2{
+    font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #222; /* dark text */
+  font-weight: 600;
+ }
+ .box{
+    display: flex;
+    justify-content:space-around;
+    gap: 20;
+ }
+ .cmnt{
+    margin: 10px;
+ }
+ .cmnt h3{
+    font-size: 4rem;
+    color: #4E47FF;
+    font-weight: 500px;
+ }
+.cmnt p{
+    color: #252432;
 }
-#stay{
-    margin:460px 633px 200px;
+.banner3 h2{
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0px 6px 20px opx;
+    
 }
+.star {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px
+
+}
+
