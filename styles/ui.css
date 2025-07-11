@@ -4,13 +4,13 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight:weight;
   font-style: normal;
 }
 .raleway{
     font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 /* Nav styles  */   
@@ -27,16 +27,17 @@ nav ul li{
 
 /* header */
 header{
-
+    font-size: larger;
     background-image: url(../images/Hero-bg.png)
     
 }
 .btn-color{
     background-color:#4E47FF;
-    border-radius: 6px;
+    border-radius: 8px;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 12px 36px;
     
    
 }
@@ -45,15 +46,18 @@ header{
     text-align: center;
     padding: 309px  267.5px 200px;
 }
+.cool h1{
+    font-size: 5rem;
+}
 /* main >banner1*/
  .banner1{
     display: flex;
     justify-content: space-around;
-    margin: 40px 20px;
+    padding: 129px 172px 0px 128px;
     
  }
  .banner-titel{
-    font-size: 42px;
+    font-size: 35px;
     font-size: bold;
 
  }
@@ -70,14 +74,14 @@ header{
  }
  .banner2{
     margin: 40px auto;
-    padding: 40px 20px;
+    padding:103px 159px 0px 141px ;
     border-radius: 12px;
     background-color: #adabf392;
     text-align: center;
     max-width: 1140px;
  }
  .banner h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
   margin-bottom: 30px;
   color: #222; /* dark text */
   font-weight: 600;
@@ -143,4 +147,21 @@ input{
     border-color: none;
 }
 /* footer */
-
+.last{
+    text-align: center;
+}
+.last h1{
+    font-size: 4rem;
+}
+.last ul{ 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.dark2{
+    color: #8987A1;
+}
+.big{
+    font-size: large;
+}
