@@ -89,7 +89,7 @@ header{
  .box{
     display: flex;
     justify-content:space-around;
-    gap: 20;
+    gap: 15px;
  }
  .cmnt{
     margin: 10px;
@@ -109,8 +109,8 @@ header{
     
 }
 .dis{
-    box-shadow: 0px 6px 20px 0px;
-    padding: 24px;
+    box-shadow: 0px 6px 10px 0px;
+    padding: 20px;
     border-color:none;
 }
 .star {
