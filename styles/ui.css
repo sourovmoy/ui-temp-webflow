@@ -1,0 +1,26 @@
+
+
+/* Nav styles  */   
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.btn{
+    background-color:#4E47FF;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight:500;
+   
+}
+div{
+    
+    text-align: center;
+    margin:309px  267.5px 152px;
+}
